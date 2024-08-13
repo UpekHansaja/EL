@@ -13,6 +13,7 @@
     </head>
     <body>
 
+        <%-- Easy Implementaoin --%> 
         <%
             pageContext.setAttribute("x","10");
         %>
@@ -32,6 +33,16 @@
         <h1>
             ${pageScope.x}
         </h1>
+
+        <%-- Access In Any Scope --%> 
+
+        <h1>${pageScope.x}</h1>
+
+        <h1>${requestScope.x}</h1>
+
+        <h1>${sessionScope.x}</h1>
+
+        <h1>${applicationScope.x}</h1>
 
     </body>
 </html>
