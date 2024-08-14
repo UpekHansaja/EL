@@ -1,5 +1,4 @@
-# EL
-EL - Expression Language
+# EL - Expression Language
 
 
 ## `${somethingHere}`
