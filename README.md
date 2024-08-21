@@ -133,6 +133,7 @@ EL can also perform operations and access collections.
 
 In the above example, EL is used to perform arithmetic operations and comparisons.
 
+***
 
 Futhermore here are some examples of how EL is used in a Java web application?
 
